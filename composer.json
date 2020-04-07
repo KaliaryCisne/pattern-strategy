@@ -1,0 +1,13 @@
+{
+    "name": "kaliary/pattern-strategy",
+    "authors": [
+        {
+            "name": "Kaliary Cisne de Sousa da Silva",
+            "email": "kaliarycisne@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    },
+    "require": {}
+}
