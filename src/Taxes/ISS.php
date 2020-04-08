@@ -12,6 +12,6 @@ class ISS implements Tax
 
     public function calculate(Estimate $estimate)
     {
-        return $estimate->getValue() * 0.2;
+        return $estimate->getValue() * 0.06;
     }
 }

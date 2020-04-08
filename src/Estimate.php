@@ -13,7 +13,13 @@ class Estimate
         $this->value = $value;
     }
 
-    public function getValue() {
+    public function getValue()
+    {
         return $this->value;
+    }
+
+    public function setValue($value)
+    {
+        $this->value += $value;
     }
 }

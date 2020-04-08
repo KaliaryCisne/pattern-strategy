@@ -10,6 +10,6 @@ class ICMS implements Tax
 
     public function calculate(Estimate $estimate)
     {
-        return $estimate->getValue() * 0.5;
+        return $estimate->getValue() * 0.05 + 50;
     }
 }
