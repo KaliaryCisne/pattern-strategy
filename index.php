@@ -51,7 +51,7 @@ $moderate = new Moderate();
 echo "current balance: {$account1->getValue()} ";
 echo "<br>";
 $new_value = $profitCalculator->performsCalculation($account1, $conservative);
-echo "saldo after investiment conservative: {$new_value}";
+echo "balance after conservative investment: {$new_value}";
 
 echo "<br>";
 echo "---------------------------------------------------------------------------";
@@ -60,7 +60,7 @@ echo "<br>";
 echo "current balance: {$account2->getValue()} ";
 echo "<br>";
 $new_value = $profitCalculator->performsCalculation($account2, $moderate);
-echo "saldo after investiment conservative: {$new_value}";
+echo "balance after moderate investmentt: {$new_value}";
 
 echo "<br>";
 echo "---------------------------------------------------------------------------";
@@ -69,6 +69,6 @@ echo "<br>";
 echo "current balance: {$account3->getValue()} ";
 echo "<br>";
 $new_value = $profitCalculator->performsCalculation($account3, $moderate);
-echo "saldo after investiment bold: {$new_value}";
+echo "balance after bold investment: {$new_value}";
 
 
